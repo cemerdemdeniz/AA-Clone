@@ -1,0 +1,23 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class oyunyonetıcısı : MonoBehaviour
+{
+    GameObject Cember;
+    GameObject AnaCember;
+    void Start()
+    {
+        Cember = GameObject.FindGameObjectWithTag("DonenCemberTag");
+        AnaCember = GameObject.FindGameObjectWithTag("AnaCemberTag");
+    }
+
+    public void OyunBitti()
+    {
+        Debug.Log("oyunbitti");
+        Cember.GetComponent<Dondurme>().enabled = false;
+        AnaCember.GetComponent<Dondurme>().enabled = false;
+    }
+    
+   
+}
