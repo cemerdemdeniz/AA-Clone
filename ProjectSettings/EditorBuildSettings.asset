@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Leveller/AnaMenu.unity
+    path: Assets/Leveller/MainMenu.unity
     guid: 7400975554909b3478d703650cb06fbc
   - enabled: 1
     path: Assets/Leveller/1.unity

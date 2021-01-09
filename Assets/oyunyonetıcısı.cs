@@ -95,7 +95,7 @@ public class oyunyonetıcısı : MonoBehaviour
         yield return new WaitForSeconds(2);//1 saniye bekletme
         
         
-        SceneManager.LoadScene("AnaMenu");
+        SceneManager.LoadScene("MainMenu");
     }
     
    
